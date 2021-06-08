@@ -111,7 +111,7 @@ function ver() {
         console.log("[" + nombres[i] + "]");
         console.log("[" + edades[i] + "]");
     }
-
+}
     function buscar() {
         let nomBus = document.getElementById("nomBus").value;
         let posicion;
@@ -131,7 +131,7 @@ function ver() {
         }
 
     }
-}
+
 /*7.Menor y mayor*/
 let nam = [];
 let age = [];

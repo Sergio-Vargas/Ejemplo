@@ -1,0 +1,134 @@
+body{
+	background-color:#2980B9;
+}
+/*Menu*/
+
+.nav{
+	background-color:white;
+	height: 50px;
+	margin: 20px;
+}
+
+.nav ul{
+	list-style: none;
+	padding: 15px;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	width: 500px;
+	color:black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.menu li a:hover{
+	transition: all .3s;
+}
+/**/
+
+	.texto{
+		float:left;
+		width:560px;
+		font-size: 17px;
+		margin: 2px;
+		text-align:left;
+	}
+	a{
+		padding: 30px;
+	}
+	.contenido{	
+	height: 300px;
+	width:1090px;
+	background-color: white;
+	
+}
+	.imagen{
+	float:left;
+	}
+	img{
+		width:450px;
+	}
+	h1{
+		text-align: center;
+	}
+	.navbar{
+		margin: 20px;
+	}
+	.footer{
+		background-color: white;
+		width:1300px;
+		height:100px;
+		margin: 20px;
+	}
+	.boton{
+		float:left;
+		padding: 20px;
+		margin-left:450px;
+	}
+	.boton1{
+		background-color: black;
+		color:white;
+		height: 35px;
+		width: 70px;
+		text-align: center;
+		padding-top: 20px;
+	}
+	.final{	
+		float:left;
+		font-size: 17px;
+		text-align:left;
+		padding: 10px;
+	}
+	/**/
+	.mockup2{
+		color:black;
+		text-align: left;
+		font-size: 17px;
+		padding: 50px;
+	}
+	@media screen and (max-width:800px){
+		/*Contenido*/
+		.contenido{
+			height:600px;
+			width:auto;
+			background-color: white;
+		}
+		.texto{
+			width:auto;
+			order:2;
+			font-size: 17px;
+		}
+		.imagen{
+			width:auto;
+			order:1;
+		}
+		/*Footer*/
+		.footer{
+			background-color: white;
+			width:auto;
+			height:120px;
+			margin:30px;
+		}
+		.boton{
+			padding: 24px;
+			float:left;
+			margin-left:50px;
+		}
+		
+		.final{	
+			font-size:15px;
+			float:left;
+			padding: 10px;
+		}
+		.menu > li > a{
+			width:auto;
+			color:black;
+			text-decoration: none;
+			font-size: 20px;
+		}
+	}
